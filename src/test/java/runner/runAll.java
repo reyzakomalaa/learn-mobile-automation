@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "stepDefinition",
-        tags = "@Test"
+        tags = "@Swipe"
 )
 
 public class runAll {

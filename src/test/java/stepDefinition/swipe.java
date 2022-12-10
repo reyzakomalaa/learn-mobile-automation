@@ -16,11 +16,20 @@ public class swipe extends env {
     }
     @And("user scroll down")
     public void user_scroll_down() {
-        driver.findElement(elementSwipe.getScroll_toJsFoundation()).click();
+        driver.findElement(elementSwipe.getScroll_toRobot());
     }
     @Then("user see robot image")
     public void user_see_robot_image() {
-        driver.findElement(elementSwipe.getScroll_toRobot());
-        driver.findElement(elementSwipe.getScroll_toRobot()).isDisplayed();
+        driver.findElement(elementSwipe.getIconRobot()).isDisplayed();
+    }
+
+    @And("user swipe to JS Foundation")
+    public void user_swipe_to_js_foundation() {
+        driver.findElement(elementSwipe.getScroll_toJsFoundation());
+
+    }
+    @Then("user see JS Foundation")
+    public void user_see_js_foundation() {
+        driver.findElement(elementSwipe.getTxtJSFoundation()).isDisplayed();
     }
 }

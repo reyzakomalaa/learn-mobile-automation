@@ -14,4 +14,14 @@ public class pageSwipe {
     public By getScroll_toRobot() {
         return scroll_toRobot;
     }
+    By iconRobot = By.xpath("//*[@content-desc= 'WebdriverIO logo']");
+
+    public By getIconRobot() {
+        return iconRobot;
+    }
+    By txtJSFoundation = By.xpath("//*[contains(@text, 'JS.FOUNDATION')]");
+
+    public By getTxtJSFoundation() {
+        return txtJSFoundation;
+    }
 }
