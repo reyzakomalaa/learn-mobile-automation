@@ -1,4 +1,5 @@
 Feature: Register
+  @Test
   Scenario: Ensure user can register an account
     Given user in Home page
     When user click Forms button

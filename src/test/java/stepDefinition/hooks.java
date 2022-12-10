@@ -9,7 +9,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class Hooks extends env {
+public class hooks extends env {
     @Before
     public void before() throws MalformedURLException {
         capabilities = new DesiredCapabilities();

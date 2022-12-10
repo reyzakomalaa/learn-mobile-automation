@@ -3,15 +3,19 @@ package objectRepository;
 import org.openqa.selenium.By;
 
 public class pageHome {
-    By txtWebdriver = By.xpath("//*[contains(text(), 'WEBDRIVER')]");
+    By verifyHome = By.xpath("//*[@content-desc = 'Home-screen']");
 
-    public By getTxtWebdriver() {
-        return txtWebdriver;
+    public By getVerifyHome() {
+        return verifyHome;
     }
-
     By btnSwipe = By.xpath("//*[@content-desc = 'Swipe']");
 
     public By getBtnSwipe() {
         return btnSwipe;
+    }
+    By btnForms = By.xpath("//*[@content-desc = 'Forms']");
+
+    public By getBtnForms() {
+        return btnForms;
     }
 }

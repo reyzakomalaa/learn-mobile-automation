@@ -6,8 +6,9 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/features/scroll.feature",
-        glue = "stepDefinition"
+        features = "src/test/resources/features",
+        glue = "stepDefinition",
+        tags = "@Test"
 )
 
 public class runAll {
