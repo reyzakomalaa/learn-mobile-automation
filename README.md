@@ -1,2 +1,2 @@
 # learn-mobile-automation
-Learn mobile automation with wdio demo app
+Learn mobile automation with Android Native Demo app
